@@ -130,65 +130,65 @@ const CD_PATHS = {
 };
 
 const NYC_DISTRICTS = [
-  {id:"BK01",name:"Williamsburg, Greenpoint",borough:"Brooklyn",le:84.4},
-  {id:"BK02",name:"Fort Greene, Brooklyn Hts",borough:"Brooklyn",le:86.1},
-  {id:"BK03",name:"Bedford Stuyvesant",borough:"Brooklyn",le:80.0},
-  {id:"BK04",name:"Bushwick",borough:"Brooklyn",le:82.0},
-  {id:"BK05",name:"East New York",borough:"Brooklyn",le:78.2},
-  {id:"BK06",name:"Park Slope",borough:"Brooklyn",le:83.5},
-  {id:"BK07",name:"Sunset Park",borough:"Brooklyn",le:84.0},
-  {id:"BK08",name:"Crown Heights North",borough:"Brooklyn",le:81.5},
-  {id:"BK09",name:"Crown Heights South",borough:"Brooklyn",le:82.1},
-  {id:"BK10",name:"Bay Ridge",borough:"Brooklyn",le:84.6},
-  {id:"BK11",name:"Bensonhurst",borough:"Brooklyn",le:84.9},
-  {id:"BK12",name:"Borough Park",borough:"Brooklyn",le:85.0},
-  {id:"BK13",name:"Coney Island",borough:"Brooklyn",le:80.4},
-  {id:"BK14",name:"Flatbush, Midwood",borough:"Brooklyn",le:82.4},
-  {id:"BK15",name:"Sheepshead Bay",borough:"Brooklyn",le:84.0},
-  {id:"BK16",name:"Brownsville",borough:"Brooklyn",le:75.1},
-  {id:"BK17",name:"East Flatbush",borough:"Brooklyn",le:82.0},
-  {id:"BK18",name:"Flatlands, Canarsie",borough:"Brooklyn",le:81.5},
-  {id:"BX01",name:"Mott Haven",borough:"Bronx",le:77.5,isTarget:true},
-  {id:"BX02",name:"Hunts Point",borough:"Bronx",le:79.4},
-  {id:"BX03",name:"Morrisania",borough:"Bronx",le:77.0},
-  {id:"BX04",name:"Concourse, Highbridge",borough:"Bronx",le:79.9},
-  {id:"BX05",name:"University Heights",borough:"Bronx",le:79.5},
-  {id:"BX06",name:"East Tremont",borough:"Bronx",le:77.1},
-  {id:"BX07",name:"Fordham",borough:"Bronx",le:79.9},
-  {id:"BX08",name:"Riverdale",borough:"Bronx",le:81.7},
-  {id:"BX09",name:"Soundview",borough:"Bronx",le:80.8},
-  {id:"BX10",name:"Throgs Neck",borough:"Bronx",le:81.5},
-  {id:"BX11",name:"Pelham Parkway",borough:"Bronx",le:80.5},
-  {id:"BX12",name:"Williamsbridge",borough:"Bronx",le:81.0},
-  {id:"MN01",name:"Financial District",borough:"Manhattan",le:86.9},
-  {id:"MN02",name:"Greenwich Village, SoHo",borough:"Manhattan",le:88.9},
-  {id:"MN03",name:"Lower East Side",borough:"Manhattan",le:84.5},
-  {id:"MN04",name:"Chelsea, Clinton",borough:"Manhattan",le:89.0},
-  {id:"MN05",name:"Midtown",borough:"Manhattan",le:89.2},
-  {id:"MN06",name:"Murray Hill",borough:"Manhattan",le:87.7},
-  {id:"MN07",name:"Upper West Side",borough:"Manhattan",le:86.0},
-  {id:"MN08",name:"Upper East Side",borough:"Manhattan",le:87.4},
-  {id:"MN09",name:"Manhattanville",borough:"Manhattan",le:82.4},
-  {id:"MN10",name:"Central Harlem",borough:"Manhattan",le:76.8},
-  {id:"MN11",name:"East Harlem",borough:"Manhattan",le:77.9},
-  {id:"MN12",name:"Washington Heights",borough:"Manhattan",le:84.5},
-  {id:"QN01",name:"Astoria, LIC",borough:"Queens",le:84.0},
-  {id:"QN02",name:"Sunnyside, Woodside",borough:"Queens",le:89.9},
-  {id:"QN03",name:"Jackson Heights",borough:"Queens",le:85.6},
-  {id:"QN04",name:"Elmhurst, Corona",borough:"Queens",le:86.4},
-  {id:"QN05",name:"Ridgewood, Glendale",borough:"Queens",le:81.8},
-  {id:"QN06",name:"Rego Park, Forest Hills",borough:"Queens",le:85.4},
-  {id:"QN07",name:"Flushing",borough:"Queens",le:85.5},
-  {id:"QN08",name:"Fresh Meadows",borough:"Queens",le:85.1},
-  {id:"QN09",name:"Woodhaven",borough:"Queens",le:83.0},
-  {id:"QN10",name:"Howard Beach",borough:"Queens",le:81.4},
-  {id:"QN11",name:"Bayside",borough:"Queens",le:84.8},
-  {id:"QN12",name:"Jamaica, St. Albans",borough:"Queens",le:81.0},
-  {id:"QN13",name:"Queens Village",borough:"Queens",le:82.6},
-  {id:"QN14",name:"The Rockaways",borough:"Queens",le:76.5},
-  {id:"SI01",name:"Port Richmond",borough:"Staten Island",le:79.9},
-  {id:"SI02",name:"South Beach",borough:"Staten Island",le:82.1},
-  {id:"SI03",name:"Tottenville",borough:"Staten Island",le:81.1},
+  {id:"BK01",name:"Williamsburg, Greenpoint",borough:"Brooklyn",le:84.4,vt:42.6},
+  {id:"BK02",name:"Fort Greene, Brooklyn Hts",borough:"Brooklyn",le:86.1,vt:52.5},
+  {id:"BK03",name:"Bedford Stuyvesant",borough:"Brooklyn",le:80.0,vt:35.6},
+  {id:"BK04",name:"Bushwick",borough:"Brooklyn",le:82.0,vt:29.4},
+  {id:"BK05",name:"East New York",borough:"Brooklyn",le:78.2,vt:24.5},
+  {id:"BK06",name:"Park Slope",borough:"Brooklyn",le:83.5,vt:56.8},
+  {id:"BK07",name:"Sunset Park",borough:"Brooklyn",le:84.0,vt:38.7},
+  {id:"BK08",name:"Crown Heights North",borough:"Brooklyn",le:81.5,vt:43.1},
+  {id:"BK09",name:"Crown Heights South",borough:"Brooklyn",le:82.1,vt:40.2},
+  {id:"BK10",name:"Bay Ridge",borough:"Brooklyn",le:84.6,vt:44.3},
+  {id:"BK11",name:"Bensonhurst",borough:"Brooklyn",le:84.9,vt:32.1},
+  {id:"BK12",name:"Borough Park",borough:"Brooklyn",le:85.0,vt:45.2},
+  {id:"BK13",name:"Coney Island",borough:"Brooklyn",le:80.4,vt:33.3},
+  {id:"BK14",name:"Flatbush, Midwood",borough:"Brooklyn",le:82.4,vt:40.0},
+  {id:"BK15",name:"Sheepshead Bay",borough:"Brooklyn",le:84.0,vt:39.6},
+  {id:"BK16",name:"Brownsville",borough:"Brooklyn",le:75.1,vt:26.4},
+  {id:"BK17",name:"East Flatbush",borough:"Brooklyn",le:82.0,vt:33.3},
+  {id:"BK18",name:"Flatlands, Canarsie",borough:"Brooklyn",le:81.5,vt:37.7},
+  {id:"BX01",name:"Mott Haven",borough:"Bronx",le:77.5,vt:19.9,isTarget:true},
+  {id:"BX02",name:"Hunts Point",borough:"Bronx",le:79.4,vt:21.2},
+  {id:"BX03",name:"Morrisania",borough:"Bronx",le:77.0,vt:20.6},
+  {id:"BX04",name:"Concourse, Highbridge",borough:"Bronx",le:79.9,vt:23.7},
+  {id:"BX05",name:"University Heights",borough:"Bronx",le:79.5,vt:20.8},
+  {id:"BX06",name:"East Tremont",borough:"Bronx",le:77.1,vt:20.1},
+  {id:"BX07",name:"Fordham",borough:"Bronx",le:79.9,vt:24.1},
+  {id:"BX08",name:"Riverdale",borough:"Bronx",le:81.7,vt:42.8},
+  {id:"BX09",name:"Soundview",borough:"Bronx",le:80.8,vt:26.8},
+  {id:"BX10",name:"Throgs Neck",borough:"Bronx",le:81.5,vt:40.5},
+  {id:"BX11",name:"Pelham Parkway",borough:"Bronx",le:80.5,vt:31.4},
+  {id:"BX12",name:"Williamsbridge",borough:"Bronx",le:81.0,vt:31.7},
+  {id:"MN01",name:"Financial District",borough:"Manhattan",le:86.9,vt:49.5},
+  {id:"MN02",name:"Greenwich Village, SoHo",borough:"Manhattan",le:88.9,vt:55.0},
+  {id:"MN03",name:"Lower East Side",borough:"Manhattan",le:84.5,vt:36.7},
+  {id:"MN04",name:"Chelsea, Clinton",borough:"Manhattan",le:89.0,vt:49.2},
+  {id:"MN05",name:"Midtown",borough:"Manhattan",le:89.2,vt:45.5},
+  {id:"MN06",name:"Murray Hill",borough:"Manhattan",le:87.7,vt:54.7},
+  {id:"MN07",name:"Upper West Side",borough:"Manhattan",le:86.0,vt:57.2},
+  {id:"MN08",name:"Upper East Side",borough:"Manhattan",le:87.4,vt:57.5},
+  {id:"MN09",name:"Manhattanville",borough:"Manhattan",le:82.4,vt:36.0},
+  {id:"MN10",name:"Central Harlem",borough:"Manhattan",le:76.8,vt:36.8},
+  {id:"MN11",name:"East Harlem",borough:"Manhattan",le:77.9,vt:30.6},
+  {id:"MN12",name:"Washington Heights",borough:"Manhattan",le:84.5,vt:33.3},
+  {id:"QN01",name:"Astoria, LIC",borough:"Queens",le:84.0,vt:40.8},
+  {id:"QN02",name:"Sunnyside, Woodside",borough:"Queens",le:89.9,vt:40.7},
+  {id:"QN03",name:"Jackson Heights",borough:"Queens",le:85.6,vt:31.2},
+  {id:"QN04",name:"Elmhurst, Corona",borough:"Queens",le:86.4,vt:25.7},
+  {id:"QN05",name:"Ridgewood, Glendale",borough:"Queens",le:81.8,vt:38.5},
+  {id:"QN06",name:"Rego Park, Forest Hills",borough:"Queens",le:85.4,vt:44.9},
+  {id:"QN07",name:"Flushing",borough:"Queens",le:85.5,vt:36.0},
+  {id:"QN08",name:"Fresh Meadows",borough:"Queens",le:85.1,vt:36.4},
+  {id:"QN09",name:"Woodhaven",borough:"Queens",le:83.0,vt:28.4},
+  {id:"QN10",name:"Howard Beach",borough:"Queens",le:81.4,vt:31.4},
+  {id:"QN11",name:"Bayside",borough:"Queens",le:84.8,vt:43.8},
+  {id:"QN12",name:"Jamaica, St. Albans",borough:"Queens",le:81.0,vt:31.4},
+  {id:"QN13",name:"Queens Village",borough:"Queens",le:82.6,vt:37.0},
+  {id:"QN14",name:"The Rockaways",borough:"Queens",le:76.5,vt:41.0},
+  {id:"SI01",name:"Port Richmond",borough:"Staten Island",le:79.9,vt:40.7},
+  {id:"SI02",name:"South Beach",borough:"Staten Island",le:82.1,vt:44.6},
+  {id:"SI03",name:"Tottenville",borough:"Staten Island",le:81.1,vt:51.9},
 ];
 
 function leColor(le) {
@@ -325,7 +325,7 @@ function NYCMap({ hovered, onHover, onZoomCenter }) {
         <text x={14} y={12.5} style={{fontSize:1.6,fontFamily:"'JetBrains Mono',monospace",fill:"#6b7280"}}>{worst.name}</text>
       </g>
       <g transform="translate(90,84)">
-        <text y={0} style={{fontSize:1.4,fontFamily:"'JetBrains Mono',monospace",fill:"#b0a999"}}>Life expectancy (years)</text>
+        <text y={2} style={{fontSize:2,fontFamily:"'JetBrains Mono',monospace",fill:"#b0a999"}}>Life expectancy (years)</text>
         {[["#dc2626","< 79"],["#eab308","79–81"],["#65a30d","82–85"],["#15803d","86+"]].map(([c,l],i)=>(
           <g key={i} transform={`translate(${i*14},4)`}><rect width={3} height={3} rx={0.5} fill={c}/><text x={4} y={2.6} style={{fontSize:1.6,fontFamily:"'JetBrains Mono',monospace",fill:"#9ca3af"}}>{l}</text></g>
         ))}
@@ -452,16 +452,16 @@ function PersonStory({person}) {
 function InfoPanel({level,data}) {
   if(!data) return null;
   const st = level===0 ? (()=>{const d=STATE_DATA[data];if(!d)return null;return(
-    <div><h4 style={{fontFamily:"'Playfair Display',Georgia,serif",fontSize:16,fontWeight:800,marginBottom:10}}>{d.name}</h4>
+    <div><h4 style={{fontFamily:"'Playfair Display',Georgia,serif",fontSize:16,fontWeight:800,marginBottom:10,color:"#5a5d63"}}>{d.name}</h4>
       {[["Voter Turnout",`${d.voterTurnout}%`,d.voterTurnout,"#2563eb"],["Uninsured",`${d.uninsured}%`,d.uninsured*5,"#7c3aed"],["Life Expectancy",`${d.lifeExp} yrs`,(d.lifeExp-70)*10,"#0891b2"]].map(([l,v,bar,c])=>(
         <div key={l} style={{marginBottom:8}}>
           <div style={{display:"flex",justifyContent:"space-between",marginBottom:2}}><span style={{fontFamily:"'JetBrains Mono',monospace",fontSize:10,color:"#6b7280"}}>{l}</span><span style={{fontFamily:"'JetBrains Mono',monospace",fontSize:10,fontWeight:600,color:"#1a1a1a"}}>{v}</span></div>
           <div style={{height:3,background:"#f0ede6",borderRadius:2,overflow:"hidden"}}><div style={{height:"100%",width:`${Math.min(100,bar)}%`,background:c,borderRadius:2,transition:"width 0.4s"}}/></div>
         </div>))}
     </div>);})() : level===1 ? (()=>{const n=NYC_DISTRICTS.find(nb=>nb.id===data);if(!n)return null;return(
-    <div><div style={{display:"flex",alignItems:"center",gap:7,marginBottom:8}}><div style={{width:10,height:10,borderRadius:"50%",background:leColor(n.le)}}/><h4 style={{fontFamily:"'Playfair Display',Georgia,serif",fontSize:15,fontWeight:800}}>{n.name}</h4></div>
+    <div><div style={{display:"flex",alignItems:"center",gap:7,marginBottom:8,color:"#5a5d63"}}><div style={{width:10,height:10,borderRadius:"50%",background:leColor(n.le)}}/><h4 style={{fontFamily:"'Playfair Display',Georgia,serif",fontSize:15,fontWeight:800}}>{n.name}</h4></div>
       <p style={{fontFamily:"'JetBrains Mono',monospace",fontSize:10,color:"#9ca3af",marginBottom:10}}>{n.borough} · {n.id}</p>
-      {[["Life Expectancy",`${n.le} yrs`,n.le<79]].map(([l,v,bad])=>(
+      {[["Voter Turnout (2022)",`${n.vt}%`,n.vt<30],["Life Expectancy",`${n.le} yrs`,n.le<79]].map(([l,v,bad])=>(
         <div key={l} style={{display:"flex",justifyContent:"space-between",marginBottom:4}}><span style={{fontFamily:"'JetBrains Mono',monospace",fontSize:10,color:"#6b7280"}}>{l}</span><span style={{fontFamily:"'JetBrains Mono',monospace",fontSize:11,fontWeight:700,color:bad?"#dc2626":"#059669"}}>{v}</span></div>
       ))}</div>);})() : null;
   if(!st) return null;
@@ -472,7 +472,7 @@ function InfoPanel({level,data}) {
 
 function NarrativeOverlay({level}) {
   const t = [{ch:"Chapter 1",title:"The National Picture",body:"States where residents vote more tend to have lower uninsured rates and higher life expectancies. Hover any colored state. Click New York to zoom in."},
-    {ch:"Chapter 2",title:"12 Miles, 12 Years",body:"In NYC, the gap between a life expectancy of 86 and 74 is a single subway ride. Hover neighborhoods, then click the pulsing dot in the Bronx."},
+    {ch:"Chapter 2",title:"12 Miles, 12 Years",body:"In NYC, the gap between a life expectancy of 89.9 and 75.1 is a single subway ride. Hover neighborhoods, then click the pulsing dot in the Bronx."},
     {ch:"Chapter 3",title:"Inside the Walls",body:"Every department tells a story about civic power — or its absence. Hover rooms for details. Click any person to follow their story."}][level];
   if(!t) return null;
   return(<div style={{position:"absolute",left:16,bottom:16,maxWidth:280,zIndex:50,background:"rgba(250,248,243,0.94)",backdropFilter:"blur(6px)",padding:"16px 20px",border:"1px solid #e5e1d8"}}>
